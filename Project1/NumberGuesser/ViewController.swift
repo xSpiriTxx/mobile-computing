@@ -6,15 +6,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputField: UITextField!
     @IBOutlet weak var textView: UILabel!
     
-    @IBOutlet weak var button: UITextField!
-    // let target: Int = Int.random(in: 0...100)
+    @IBOutlet weak var button: UIButton!
     var model = Model()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.model.newGame()
         print(self.model.target)
-        self.button.isEnabled = true;
     }
     
     
@@ -27,7 +25,7 @@ class ViewController: UIViewController {
         
         var response: String!
         
-        if let guess = Int(self.inputField.text!) {
+        if Int(self.inputField.text!) != nil {
             switch compareTo() {
                 case -1:
                     response = "kleiner"

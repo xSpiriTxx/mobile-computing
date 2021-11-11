@@ -38,6 +38,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="HDs-g8-rQr"/>
+                                    <action selector="onValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="dge-K5-VHd"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schätzen Sie die Zahl!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HtP-eX-GXC">
@@ -69,7 +70,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Game" id="qer-H0-RgQ"/>
                     <connections>
-                        <outlet property="button" destination="H33-l7-7g1" id="1hq-zm-gOO"/>
+                        <outlet property="button" destination="fot-M0-HeM" id="QdZ-rq-bxh"/>
                         <outlet property="inputField" destination="H33-l7-7g1" id="OI0-gF-AdP"/>
                         <outlet property="textView" destination="HtP-eX-GXC" id="sP8-xM-hmw"/>
                     </connections>
