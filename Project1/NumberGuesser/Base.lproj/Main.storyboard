@@ -52,7 +52,7 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Check"/>
                                 <connections>
                                     <action selector="onCheckButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="488-Yk-o1U"/>
-                                    <segue destination="nNX-ye-KfI" kind="show" id="G4R-WG-XUt"/>
+                                    <segue destination="nNX-ye-KfI" kind="show" identifier="segue1" id="G4R-WG-XUt"/>
                                 </connections>
                             </button>
                         </subviews>

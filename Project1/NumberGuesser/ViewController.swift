@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  NumberGuesser
 //
-//  Created by Stefan Hemberger on 14.10.21.
+//  Created by Matthias Gassner on 14.10.21.
 //
 
 import UIKit
@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.model.newGame()
         print(self.model.target)
+        self.button.isEnabled = true;
     }
     
     
