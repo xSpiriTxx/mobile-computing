@@ -59,7 +59,11 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let resultViewController = segue.destination()
+        let resultViewController = segue.destination as? ResultViewController
+        
+        if let vc = resultViewController {
+            vc.model = model
+        }
     }
     
 }
