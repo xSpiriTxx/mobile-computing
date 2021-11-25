@@ -17,6 +17,7 @@
 		3EFB886E27183945001A0C52 /* NumberGuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB886D27183945001A0C52 /* NumberGuesserTests.swift */; };
 		3EFB887827183945001A0C52 /* NumberGuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB887727183945001A0C52 /* NumberGuesserUITests.swift */; };
 		3EFB887A27183945001A0C52 /* NumberGuesserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB887927183945001A0C52 /* NumberGuesserUITestsLaunchTests.swift */; };
+		BF4F822A274FAF7700363E7E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F8229274FAF7700363E7E /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3EFB887327183945001A0C52 /* NumberGuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberGuesserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFB887727183945001A0C52 /* NumberGuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuesserUITests.swift; sourceTree = "<group>"; };
 		3EFB887927183945001A0C52 /* NumberGuesserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuesserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF4F8229274FAF7700363E7E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3EFB885827183944001A0C52 /* SceneDelegate.swift */,
 				3EFB885A27183944001A0C52 /* ViewController.swift */,
 				3EFB885C27183944001A0C52 /* Main.storyboard */,
+				BF4F8229274FAF7700363E7E /* TableViewController.swift */,
 				3EFB885F27183945001A0C52 /* Assets.xcassets */,
 				3EFB886127183945001A0C52 /* LaunchScreen.storyboard */,
 				3EFB886427183945001A0C52 /* Info.plist */,
@@ -264,6 +267,7 @@
 				3EFB885B27183944001A0C52 /* ViewController.swift in Sources */,
 				3EFB885727183944001A0C52 /* AppDelegate.swift in Sources */,
 				3EFB885927183944001A0C52 /* SceneDelegate.swift in Sources */,
+				BF4F822A274FAF7700363E7E /* TableViewController.swift in Sources */,
 				3E28802C2733FA4C0009E091 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var textView: UILabel!
     
     @IBOutlet weak var button: UIButton!
+    
+    @IBOutlet weak var versucheLabel: UILabel!
     var model = Model()
     
     override func viewDidLoad() {
@@ -16,6 +18,7 @@ class ViewController: UIViewController {
     }
     
     
+    
     @IBAction func onEditingChanged(_ sender: Any) {
         if self.inputField.hasText {
             self.button.isEnabled = true
@@ -23,6 +26,9 @@ class ViewController: UIViewController {
             self.button.isEnabled = false
         }
             
+    }
+    @IBAction func onRestartButtonClicked(_ sender: Any) {
+        self.model.newGame()
     }
     
     @IBAction func onCheckButtonClicked(_ sender: Any) {
@@ -40,9 +46,7 @@ class ViewController: UIViewController {
                     response = ""
             }
         }
-        
         textView.text = response
-        
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
@@ -52,6 +56,10 @@ class ViewController: UIViewController {
     func compareTo () -> Int! {
         let inputInt = Int(inputField.text!) ?? -1
         return model.compare(guess: inputInt)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let resultViewController = segue.destination()
     }
     
 }
