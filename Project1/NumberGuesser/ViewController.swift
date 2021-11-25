@@ -58,12 +58,12 @@ class ViewController: UIViewController {
         return model.compare(guess: inputInt)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewController = segue.destination as? ResultViewController
         
         if let vc = resultViewController {
             vc.model = model
         }
-    }
+    }*/
     
 }
