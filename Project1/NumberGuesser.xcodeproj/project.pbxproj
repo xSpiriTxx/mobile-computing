@@ -81,7 +81,6 @@
 		3EFB884A27183944001A0C52 = {
 			isa = PBXGroup;
 			children = (
-				3E28802B2733FA4C0009E091 /* Model.swift */,
 				3EFB885527183944001A0C52 /* NumberGuesser */,
 				3EFB886C27183945001A0C52 /* NumberGuesserTests */,
 				3EFB887627183945001A0C52 /* NumberGuesserUITests */,
@@ -102,6 +101,7 @@
 		3EFB885527183944001A0C52 /* NumberGuesser */ = {
 			isa = PBXGroup;
 			children = (
+				3E28802B2733FA4C0009E091 /* Model.swift */,
 				3EFB885627183944001A0C52 /* AppDelegate.swift */,
 				3EFB885827183944001A0C52 /* SceneDelegate.swift */,
 				3EFB885A27183944001A0C52 /* ViewController.swift */,

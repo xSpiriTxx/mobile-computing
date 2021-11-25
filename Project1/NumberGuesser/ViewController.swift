@@ -17,7 +17,12 @@ class ViewController: UIViewController {
     
     
     @IBAction func onEditingChanged(_ sender: Any) {
-        self.button.isEnabled = true
+        if self.inputField.hasText {
+            self.button.isEnabled = true
+        }else{
+            self.button.isEnabled = false
+        }
+            
     }
     
     @IBAction func onCheckButtonClicked(_ sender: Any) {

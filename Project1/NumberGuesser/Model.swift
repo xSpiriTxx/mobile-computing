@@ -3,6 +3,7 @@ import Foundation
 class Model {
     
     public var target = 0
+    var guesses = Set<Int>()
     
     func newGame() {
         self.target = Int.random(in: 0...100)
@@ -13,6 +14,7 @@ class Model {
     }
     
     func compare (guess: Int!) -> Int {
+        guesses.insert(guess)
         var compareResult = 0
         
         if guess > self.target {
