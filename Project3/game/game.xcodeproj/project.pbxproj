@@ -15,6 +15,7 @@
 		BF207F8827B526130034CBCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF207F8627B526130034CBCE /* LaunchScreen.storyboard */; };
 		BF207F9427B527960034CBCE /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = BF207F9227B527960034CBCE /* banana.png */; };
 		BF207F9827B5285F0034CBCE /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = BF207F9727B5285F0034CBCE /* monkey.png */; };
+		BF207F9A27B5351C0034CBCE /* banana_peeled.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF207F9927B5351C0034CBCE /* banana_peeled.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BF207F8927B526130034CBCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF207F9227B527960034CBCE /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = SOURCE_ROOT; };
 		BF207F9727B5285F0034CBCE /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		BF207F9927B5351C0034CBCE /* banana_peeled.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana_peeled.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BF207F9227B527960034CBCE /* banana.png */,
 				BF207F8927B526130034CBCE /* Info.plist */,
 				BF207F9727B5285F0034CBCE /* monkey.png */,
+				BF207F9927B5351C0034CBCE /* banana_peeled.jpg */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 				BF207F9827B5285F0034CBCE /* monkey.png in Resources */,
 				BF207F8327B526120034CBCE /* Main.storyboard in Resources */,
 				BF207F9427B527960034CBCE /* banana.png in Resources */,
+				BF207F9A27B5351C0034CBCE /* banana_peeled.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

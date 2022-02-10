@@ -17,13 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banana.png" translatesAutoresizingMaskIntoConstraints="NO" id="HGt-o4-geC">
-                                <rect key="frame" x="118" y="237" width="112" height="58"/>
+                                <rect key="frame" x="118" y="237" width="77" height="58"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="112" id="bqP-Bl-aBw"/>
+                                    <constraint firstAttribute="width" constant="77" id="bqP-Bl-aBw"/>
                                     <constraint firstAttribute="height" constant="58" id="fo5-Zb-rnl"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="58" id="iDM-2F-3Cp"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="112" id="que-cV-pH2"/>
                                 </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Nuc-x4-Ae0" appends="YES" id="A5t-Wh-3TK"/>
@@ -55,6 +54,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B79-r8-IoS" secondAttribute="bottom" constant="114" id="zrX-Od-9LS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="banana" destination="HGt-o4-geC" id="s0l-m3-B9J"/>
+                        <outlet property="monkey" destination="B79-r8-IoS" id="gKh-g5-AJe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="IMJ-VU-fLj">
