@@ -13,9 +13,9 @@
 		BF207F8327B526120034CBCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF207F8127B526120034CBCE /* Main.storyboard */; };
 		BF207F8527B526130034CBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF207F8427B526130034CBCE /* Assets.xcassets */; };
 		BF207F8827B526130034CBCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF207F8627B526130034CBCE /* LaunchScreen.storyboard */; };
-		BF207F9427B527960034CBCE /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = BF207F9227B527960034CBCE /* banana.png */; };
 		BF207F9827B5285F0034CBCE /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = BF207F9727B5285F0034CBCE /* monkey.png */; };
 		BF207F9A27B5351C0034CBCE /* banana_peeled.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF207F9927B5351C0034CBCE /* banana_peeled.jpg */; };
+		BF207F9C27B538940034CBCE /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = BF207F9B27B538930034CBCE /* banana.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		BF207F8427B526130034CBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF207F8727B526130034CBCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF207F8927B526130034CBCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF207F9227B527960034CBCE /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = SOURCE_ROOT; };
 		BF207F9727B5285F0034CBCE /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
 		BF207F9927B5351C0034CBCE /* banana_peeled.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana_peeled.jpg; sourceTree = "<group>"; };
+		BF207F9B27B538930034CBCE /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				BF207F8127B526120034CBCE /* Main.storyboard */,
 				BF207F8427B526130034CBCE /* Assets.xcassets */,
 				BF207F8627B526130034CBCE /* LaunchScreen.storyboard */,
-				BF207F9227B527960034CBCE /* banana.png */,
+				BF207F9B27B538930034CBCE /* banana.png */,
 				BF207F8927B526130034CBCE /* Info.plist */,
 				BF207F9727B5285F0034CBCE /* monkey.png */,
 				BF207F9927B5351C0034CBCE /* banana_peeled.jpg */,
@@ -138,7 +138,7 @@
 				BF207F8527B526130034CBCE /* Assets.xcassets in Resources */,
 				BF207F9827B5285F0034CBCE /* monkey.png in Resources */,
 				BF207F8327B526120034CBCE /* Main.storyboard in Resources */,
-				BF207F9427B527960034CBCE /* banana.png in Resources */,
+				BF207F9C27B538940034CBCE /* banana.png in Resources */,
 				BF207F9A27B5351C0034CBCE /* banana_peeled.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
